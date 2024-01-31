@@ -1,0 +1,7 @@
+sfs_cms:
+    collections:
+        - vendor/softspring/cms-module-collection
+
+    site:
+        identification: "domain"
+        throw_not_found: false

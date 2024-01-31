@@ -1,0 +1,4 @@
+sfs_user:
+    invite: false
+    impersonate_bar:
+        switch_route: app_entrypoint

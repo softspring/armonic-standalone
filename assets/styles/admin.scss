@@ -1,0 +1,15 @@
+@import "~bootstrap";
+@import "~bootstrap-icons";
+
+@import "~@softspring/cms-bundle/styles/admin-cms";
+@import "~@softspring/cms-module-collection/modules";
+@import "~@softspring/media-bundle/styles/media-type";
+
+@import "./admin/nav-tabs";
+@import "./admin/main-content";
+@import "./admin/page-sidebar";
+
+.page-sidebar-wrapper {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}

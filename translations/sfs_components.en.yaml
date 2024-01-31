@@ -1,0 +1,18 @@
+sidebar:
+    menu:
+        dashboard:
+            title: "Dashboard"
+            dashboard: "Dashboard"
+        cms:
+            title: "CMS"
+            pages: "Pages"
+            menus: "Menus"
+            blocks: "Blocks"
+            medias: "Medias"
+            routes: "Routes"
+            sites: "Sites"
+        users:
+            title: "Users"
+            users: "Users"
+            administrators: "Administrators"
+            invitations: "Invitations"

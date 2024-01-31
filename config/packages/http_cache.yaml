@@ -1,0 +1,21 @@
+#services:
+#    http_client.cache.adapter.redis:
+#        parent: 'cache.adapter.redis'
+#        # bin/console cache:pool:clear http_client.cache.adapter.redis
+#        public: true
+#        tags:
+#            - { name: 'cache.pool', namespace: 'http_cache_%env(APP_VERSION)%' }
+
+framework:
+    http_cache:
+        enabled: true
+        private_headers: [ 'Authorization' ] # ignore Cookies to do it private
+        trace_level: none
+
+monolog:
+    channels: ['http_cache']
+
+#sfs_http_cache_store:
+#    adapter: 'http_client.cache.adapter.redis'
+#    logger: 'monolog.logger.http_cache'
+

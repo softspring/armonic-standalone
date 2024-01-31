@@ -1,0 +1,5 @@
+sfs_media:
+    google_cloud_storage:
+        bucket: '%env(MEDIA_BUCKET_NAME)%'
+    media:
+        admin_controller: true

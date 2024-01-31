@@ -1,0 +1,32 @@
+_sfs_login:
+    resource: '@SfsUserBundle/config/routing/login.yaml'
+
+_sfs_invitation:
+    resource: '@SfsUserBundle/config/routing/invitation.yaml'
+    prefix: "/invitation"
+
+_sfs_reset_password:
+    resource: '@SfsUserBundle/config/routing/reset_password.yaml'
+    prefix: "/reset-password"
+
+_sfs_change_password:
+    resource: '@SfsUserBundle/config/routing/change_password.yaml'
+    prefix: "/user/change-password"
+
+#_sfs_register:
+#    resource: '@SfsUserBundle/config/routing/register.yaml'
+#    prefix: "/register"
+
+#_sfs_create_account:
+#    resource: '@SfsAccountBundle/config/routing/register.yaml'
+#    prefix: "/register/account"
+
+_sfs_preferences:
+    resource: '@SfsUserBundle/config/routing/preferences.yaml'
+    prefix: "/user/preferences"
+
+user_dropdown:
+    path: /_user_dropdown
+    controller: Softspring\CmsBundle\Controller\BlockController::renderByType
+    defaults:
+        type: user_dropdown

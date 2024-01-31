@@ -3,3 +3,13 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+_admin:
+    resource: "routes/admin/"
+    type: directory
+    prefix: "/admin/{_locale}"
+
+_app:
+    resource: "routes/app/"
+    type: directory
+    prefix: "/app/{_locale}"
