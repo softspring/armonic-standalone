@@ -1,4 +1,6 @@
 {
+    "name": "softspring/sfs-builder-standalone",
+    "description": "SFS Builder Standalone",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
