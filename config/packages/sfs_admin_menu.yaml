@@ -21,6 +21,12 @@ twig:
                     role: PERMISSION_SFS_CMS_ADMIN_CONTENT_LIST
                     active_expression: 'sfs_cms_admin_content_page_'
                     icon: 'bi bi-code-slash'
+                articles:
+                    translation_key: 'sidebar.menu.cms.articles'
+                    route: 'sfs_cms_admin_content_article_list'
+                    role: PERMISSION_SFS_CMS_ADMIN_CONTENT_LIST
+                    active_expression: 'sfs_cms_admin_content_article_'
+                    icon: 'bi bi-pencil-square'
                 menus:
                     translation_key: 'sidebar.menu.cms.menus'
                     route: 'sfs_cms_admin_menus_list'

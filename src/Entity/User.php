@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Softspring\CmsBlogPlugin\Model\AuthorInterface;
 use Softspring\UserBundle\Entity\ConfirmableTrait;
 use Softspring\UserBundle\Entity\NameSurnameTrait;
 use Softspring\UserBundle\Entity\PasswordRequestTrait;
@@ -27,7 +28,8 @@ use Softspring\UserBundle\Model\UserPasswordInterface;
 #[ORM\HasLifecycleCallbacks]
 class User extends UserModel implements NameSurnameInterface, UserPasswordInterface, PasswordRequestInterface,
     UserIdentifierEmailInterface, UserAvatarInterface, ConfirmableInterface,
-    RolesAdminInterface, UserLastLoginInterface, UserHasLocalePreferenceInterface
+    RolesAdminInterface, UserLastLoginInterface, UserHasLocalePreferenceInterface,
+    AuthorInterface
 {
     use UserIdentifierEmailTrait;
     use NameSurnameTrait;
@@ -55,7 +57,7 @@ class User extends UserModel implements NameSurnameInterface, UserPasswordInterf
         $this->id = uniqid();
     }
 
-    public function getDisplayName(): ?string
+    public function getDisplayName(): string
     {
         return $this->getName() . ' ' . $this->getSurname();
     }

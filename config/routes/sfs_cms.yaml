@@ -1,0 +1,3 @@
+_sfs_cms_blog_:
+    resource: "@SfsCmsBlogPlugin/config/routing/blocks.yaml"
+    prefix: "/_blog_blocks"

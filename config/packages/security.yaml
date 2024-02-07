@@ -1,5 +1,6 @@
 imports:
     - { resource: '@SfsCmsBundle/config/security/admin_role_hierarchy.yaml' }
+    - { resource: '@SfsCmsTranslationPlugin/config/security/admin_role_hierarchy.yaml' }
     - { resource: '@SfsMediaBundle/config/security/admin_role_hierarchy.yaml' }
     - { resource: '@SfsUserBundle/config/security/admin_role_hierarchy.yaml' }
 
@@ -28,6 +29,7 @@ security:
             - ROLE_SFS_CMS_ADMIN_ROUTES_RW
             - ROLE_SFS_CMS_ADMIN_MENUS_RW
             - ROLE_SFS_CMS_ADMIN_SITES_RO
+            - ROLE_SFS_CMS_ADMIN_CONTENTS_TRANSLATOR
         ROLE_SUPER_ADMIN:
             - ROLE_ADMIN
             - ROLE_ADMIN_ADMINISTRATORS_PROMOTE_SUPER

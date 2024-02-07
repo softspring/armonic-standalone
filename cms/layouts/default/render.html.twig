@@ -6,7 +6,7 @@
 
 {% block extra_headers %}
     {{ parent() }}
-    {{ containers.headers|raw }}
+    {{ containers.headers|default|raw }}
 {% endblock %}
 
 {% block title %}{{ content.seo.metaTitle|default([])|sfs_cms_trans }}{% endblock %}
@@ -63,7 +63,7 @@
 
     <main role="main">
         <div class="container-fluid">
-            {{ containers.main|raw }}
+            {{ containers.main|default|raw }}
         </div>
     </main>
 {% endblock body %}

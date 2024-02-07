@@ -6,6 +6,7 @@ sidebar:
         cms:
             title: "CMS"
             pages: "Pages"
+            articles: "Articles"
             menus: "Menus"
             blocks: "Blocks"
             medias: "Medias"
