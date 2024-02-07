@@ -26,10 +26,7 @@ use Softspring\UserBundle\Model\UserPasswordInterface;
 
 #[ORM\Entity]
 #[ORM\HasLifecycleCallbacks]
-class User extends UserModel implements NameSurnameInterface, UserPasswordInterface, PasswordRequestInterface,
-    UserIdentifierEmailInterface, UserAvatarInterface, ConfirmableInterface,
-    RolesAdminInterface, UserLastLoginInterface, UserHasLocalePreferenceInterface,
-    AuthorInterface
+class User extends UserModel implements NameSurnameInterface, UserPasswordInterface, PasswordRequestInterface, UserIdentifierEmailInterface, UserAvatarInterface, ConfirmableInterface, RolesAdminInterface, UserLastLoginInterface, UserHasLocalePreferenceInterface, AuthorInterface
 {
     use UserIdentifierEmailTrait;
     use NameSurnameTrait;
@@ -43,7 +40,7 @@ class User extends UserModel implements NameSurnameInterface, UserPasswordInterf
 
     #[ORM\Id]
     #[ORM\Column(length: 13, options: ['fixed' => true])]
-    #[ORM\GeneratedValue(strategy: "NONE")]
+    #[ORM\GeneratedValue(strategy: 'NONE')]
     protected ?string $id = null;
 
     public function getId(): ?string
@@ -59,6 +56,6 @@ class User extends UserModel implements NameSurnameInterface, UserPasswordInterf
 
     public function getDisplayName(): string
     {
-        return $this->getName() . ' ' . $this->getSurname();
+        return $this->getName().' '.$this->getSurname();
     }
 }

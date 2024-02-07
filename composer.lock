@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "201eca41ad73f092aedf505204f0f121",
+    "content-hash": "2227c03c766b0633a9b007736a817810",
     "packages": [
         {
             "name": "brick/math",
@@ -3585,12 +3585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/softspring/cms-blog-plugin.git",
-                "reference": "c826309c29372261a7385cdb2c40f65157ba3f19"
+                "reference": "aa7f54a1c23bcebf9cbeccb9459fbc7dca76b2c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/softspring/cms-blog-plugin/zipball/c826309c29372261a7385cdb2c40f65157ba3f19",
-                "reference": "c826309c29372261a7385cdb2c40f65157ba3f19",
+                "url": "https://api.github.com/repos/softspring/cms-blog-plugin/zipball/aa7f54a1c23bcebf9cbeccb9459fbc7dca76b2c1",
+                "reference": "aa7f54a1c23bcebf9cbeccb9459fbc7dca76b2c1",
                 "shasum": ""
             },
             "require": {
@@ -3623,7 +3623,7 @@
                 "issues": "https://github.com/softspring/cms-blog-plugin/issues",
                 "source": "https://github.com/softspring/cms-blog-plugin/tree/5.2"
             },
-            "time": "2024-02-07T10:17:34+00:00"
+            "time": "2024-02-07T22:48:42+00:00"
         },
         {
             "name": "softspring/cms-bundle",
@@ -3631,12 +3631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/softspring/cms-bundle.git",
-                "reference": "f7833e86e5d2dd1b3d5213f856736ddca1ac620a"
+                "reference": "8df108c279f96b7c97da842c646c2463124b3ee1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/softspring/cms-bundle/zipball/f7833e86e5d2dd1b3d5213f856736ddca1ac620a",
-                "reference": "f7833e86e5d2dd1b3d5213f856736ddca1ac620a",
+                "url": "https://api.github.com/repos/softspring/cms-bundle/zipball/8df108c279f96b7c97da842c646c2463124b3ee1",
+                "reference": "8df108c279f96b7c97da842c646c2463124b3ee1",
                 "shasum": ""
             },
             "require": {
@@ -3705,7 +3705,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-07T13:58:32+00:00"
+            "time": "2024-02-07T22:49:57+00:00"
         },
         {
             "name": "softspring/cms-module-collection",
@@ -4490,12 +4490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/softspring/user-bundle.git",
-                "reference": "19927a6a243f01859f3e7ec0d3c3f5f0b797222b"
+                "reference": "679668081c858dc2fcdc01c48b851625d90a3a33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/softspring/user-bundle/zipball/19927a6a243f01859f3e7ec0d3c3f5f0b797222b",
-                "reference": "19927a6a243f01859f3e7ec0d3c3f5f0b797222b",
+                "url": "https://api.github.com/repos/softspring/user-bundle/zipball/679668081c858dc2fcdc01c48b851625d90a3a33",
+                "reference": "679668081c858dc2fcdc01c48b851625d90a3a33",
                 "shasum": ""
             },
             "require": {
@@ -4559,7 +4559,7 @@
                 "issues": "https://github.com/softspring/user-bundle/issues",
                 "source": "https://github.com/softspring/user-bundle/tree/5.2"
             },
-            "time": "2024-02-07T10:17:34+00:00"
+            "time": "2024-02-07T22:46:44+00:00"
         },
         {
             "name": "symfony/asset",
@@ -8803,16 +8803,16 @@
         },
         {
             "name": "symfony/stimulus-bundle",
-            "version": "v2.14.1",
+            "version": "v2.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stimulus-bundle.git",
-                "reference": "da6b4a4f95a91390d38151ef67c77901a1210646"
+                "reference": "f775f6e811215156bfe41e6be234272d0c27e02b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stimulus-bundle/zipball/da6b4a4f95a91390d38151ef67c77901a1210646",
-                "reference": "da6b4a4f95a91390d38151ef67c77901a1210646",
+                "url": "https://api.github.com/repos/symfony/stimulus-bundle/zipball/f775f6e811215156bfe41e6be234272d0c27e02b",
+                "reference": "f775f6e811215156bfe41e6be234272d0c27e02b",
                 "shasum": ""
             },
             "require": {
@@ -8852,7 +8852,7 @@
                 "symfony-ux"
             ],
             "support": {
-                "source": "https://github.com/symfony/stimulus-bundle/tree/v2.14.1"
+                "source": "https://github.com/symfony/stimulus-bundle/tree/v2.14.2"
             },
             "funding": [
                 {
@@ -8868,7 +8868,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-03T01:11:47+00:00"
+            "time": "2024-02-07T20:26:48+00:00"
         },
         {
             "name": "symfony/stopwatch",
@@ -9460,16 +9460,16 @@
         },
         {
             "name": "symfony/ux-turbo",
-            "version": "v2.14.0",
+            "version": "v2.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/ux-turbo.git",
-                "reference": "7806d3960ff40f76094015644742041376218c76"
+                "reference": "7cd466f33950aa82a2b7e1485d62d8da726a0051"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/ux-turbo/zipball/7806d3960ff40f76094015644742041376218c76",
-                "reference": "7806d3960ff40f76094015644742041376218c76",
+                "url": "https://api.github.com/repos/symfony/ux-turbo/zipball/7cd466f33950aa82a2b7e1485d62d8da726a0051",
+                "reference": "7cd466f33950aa82a2b7e1485d62d8da726a0051",
                 "shasum": ""
             },
             "require": {
@@ -9536,7 +9536,7 @@
                 "turbo-stream"
             ],
             "support": {
-                "source": "https://github.com/symfony/ux-turbo/tree/v2.14.0"
+                "source": "https://github.com/symfony/ux-turbo/tree/v2.14.2"
             },
             "funding": [
                 {
@@ -9552,7 +9552,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-14T10:21:35+00:00"
+            "time": "2024-02-07T20:26:48+00:00"
         },
         {
             "name": "symfony/validator",
@@ -10243,6 +10243,315 @@
     ],
     "packages-dev": [
         {
+            "name": "composer/pcre",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/pcre.git",
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.3",
+                "phpstan/phpstan-strict-rules": "^1.1",
+                "symfony/phpunit-bridge": "^5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Pcre\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "PCRE wrapping library that offers type-safe preg_* replacements.",
+            "keywords": [
+                "PCRE",
+                "preg",
+                "regex",
+                "regular expression"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/pcre/issues",
+                "source": "https://github.com/composer/pcre/tree/3.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-10-11T07:11:09+00:00"
+        },
+        {
+            "name": "composer/semver",
+            "version": "3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/semver.git",
+                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/semver/zipball/35e8d0af4486141bc745f23a29cc2091eb624a32",
+                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.4",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Semver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "keywords": [
+                "semantic",
+                "semver",
+                "validation",
+                "versioning"
+            ],
+            "support": {
+                "irc": "ircs://irc.libera.chat:6697/composer",
+                "issues": "https://github.com/composer/semver/issues",
+                "source": "https://github.com/composer/semver/tree/3.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-08-31T09:50:34+00:00"
+        },
+        {
+            "name": "composer/xdebug-handler",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/xdebug-handler.git",
+                "reference": "ced299686f41dce890debac69273b47ffe98a40c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ced299686f41dce890debac69273b47ffe98a40c",
+                "reference": "ced299686f41dce890debac69273b47ffe98a40c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/pcre": "^1 || ^2 || ^3",
+                "php": "^7.2.5 || ^8.0",
+                "psr/log": "^1 || ^2 || ^3"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-strict-rules": "^1.1",
+                "symfony/phpunit-bridge": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\XdebugHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Stevenson",
+                    "email": "john-stevenson@blueyonder.co.uk"
+                }
+            ],
+            "description": "Restarts a process without Xdebug.",
+            "keywords": [
+                "Xdebug",
+                "performance"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/xdebug-handler/issues",
+                "source": "https://github.com/composer/xdebug-handler/tree/3.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-02-25T21:32:43+00:00"
+        },
+        {
+            "name": "friendsofphp/php-cs-fixer",
+            "version": "v3.48.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
+                "reference": "a92472c6fb66349de25211f31c77eceae3df024e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/a92472c6fb66349de25211f31c77eceae3df024e",
+                "reference": "a92472c6fb66349de25211f31c77eceae3df024e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/semver": "^3.4",
+                "composer/xdebug-handler": "^3.0.3",
+                "ext-filter": "*",
+                "ext-json": "*",
+                "ext-tokenizer": "*",
+                "php": "^7.4 || ^8.0",
+                "sebastian/diff": "^4.0 || ^5.0",
+                "symfony/console": "^5.4 || ^6.0 || ^7.0",
+                "symfony/event-dispatcher": "^5.4 || ^6.0 || ^7.0",
+                "symfony/filesystem": "^5.4 || ^6.0 || ^7.0",
+                "symfony/finder": "^5.4 || ^6.0 || ^7.0",
+                "symfony/options-resolver": "^5.4 || ^6.0 || ^7.0",
+                "symfony/polyfill-mbstring": "^1.28",
+                "symfony/polyfill-php80": "^1.28",
+                "symfony/polyfill-php81": "^1.28",
+                "symfony/process": "^5.4 || ^6.0 || ^7.0",
+                "symfony/stopwatch": "^5.4 || ^6.0 || ^7.0"
+            },
+            "require-dev": {
+                "facile-it/paraunit": "^1.3 || ^2.0",
+                "justinrainbow/json-schema": "^5.2",
+                "keradus/cli-executor": "^2.1",
+                "mikey179/vfsstream": "^1.6.11",
+                "php-coveralls/php-coveralls": "^2.7",
+                "php-cs-fixer/accessible-object": "^1.1",
+                "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.4",
+                "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.4",
+                "phpunit/phpunit": "^9.6 || ^10.5.5",
+                "symfony/yaml": "^5.4 || ^6.0 || ^7.0"
+            },
+            "suggest": {
+                "ext-dom": "For handling output formats in XML",
+                "ext-mbstring": "For handling non-UTF8 characters."
+            },
+            "bin": [
+                "php-cs-fixer"
+            ],
+            "type": "application",
+            "autoload": {
+                "psr-4": {
+                    "PhpCsFixer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Dariusz Rumiński",
+                    "email": "dariusz.ruminski@gmail.com"
+                }
+            ],
+            "description": "A tool to automatically fix PHP code style",
+            "keywords": [
+                "Static code analysis",
+                "fixer",
+                "standards",
+                "static analysis"
+            ],
+            "support": {
+                "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.48.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/keradus",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-01-19T21:44:39+00:00"
+        },
+        {
             "name": "masterminds/html5",
             "version": "2.8.1",
             "source": {
@@ -10536,6 +10845,68 @@
                 "source": "https://github.com/phar-io/version/tree/3.2.1"
             },
             "time": "2022-02-21T01:04:05+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "1.10.57",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "1627b1d03446904aaa77593f370c5201d2ecc34e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1627b1d03446904aaa77593f370c5201d2ecc34e",
+                "reference": "1627b1d03446904aaa77593f370c5201d2ecc34e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-01-24T11:51:34+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
