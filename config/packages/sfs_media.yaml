@@ -1,5 +1,27 @@
 sfs_media:
-    google_cloud_storage:
-        bucket: '%env(MEDIA_BUCKET_NAME)%'
+    driver: filesystem
+    filesystem:
+        path: '%kernel.project_dir%/public/media'
+        url: '/media'
     media:
         admin_controller: true
+    types:
+        background:
+            name: 'Background image (jpeg)'
+            upload_requirements: { minWidth: 1280, minHeight: 450, allowLandscape: true, allowPortrait: false, mimeTypes: [ 'image/png', 'image/jpeg' ] }
+            versions:
+                _thumbnail: { type: 'jpeg', scale_width: 300, jpeg_quality: 90, resolution-x: 72, resolution-y: 72 } # admin thumbnail
+                xs: { type: 'jpeg', scale_width: 360, jpeg_quality: 100, resolution-x: 72, resolution-y: 72 }
+                sm: { type: 'jpeg', scale_width: 768, jpeg_quality: 100, resolution-x: 72, resolution-y: 72 }
+                md: { type: 'jpeg', scale_width: 1024, jpeg_quality: 100, resolution-x: 72, resolution-y: 72 }
+                xl: { type: 'jpeg', scale_width: 1280, jpeg_quality: 100, resolution-x: 72, resolution-y: 72 }
+            pictures:
+                _default:
+                    sources:
+                        - { srcset: [ { version: sm, suffix: '1x' }, { version: xs, suffix: '2x' } ], attrs: { media: "(min-width: 200w)" } }
+                        - { srcset: [ { version: sm } ], attrs: { media: "(min-width: 500w)", sizes: "100vw" } }
+                        - { srcset: [ { version: xs } ], attrs: { media: "(min-width: 200w)", sizes: "50vw" } }
+                    img:
+                        src_version: xl
+
+        # todo probar videos
