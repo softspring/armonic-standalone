@@ -1,1 +1,1 @@
-# sfs-builder-standalone
+# symfonic-standalone
