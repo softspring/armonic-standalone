@@ -22,4 +22,5 @@ return [
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     Softspring\Symfonic\SymfonicBundle::class => ['all' => true],
+    Softspring\TranslatableBundle\SfsTranslatableBundle::class => ['all' => true],
 ];
