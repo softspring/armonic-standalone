@@ -145,6 +145,9 @@
             "ref": "0ff6cf1db04a8b364c015439511de14bca1b62a8"
         }
     },
+    "softspring/symfonic": {
+        "version": "v5.4.0-beta3"
+    },
     "softspring/twig-extra-bundle": {
         "version": "5.2",
         "recipe": {
