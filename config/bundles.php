@@ -23,4 +23,5 @@ return [
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     Softspring\Symfonic\SymfonicBundle::class => ['all' => true],
     Softspring\TranslatableBundle\SfsTranslatableBundle::class => ['all' => true],
+    Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle::class => ['dev' => true, 'test' => true],
 ];
