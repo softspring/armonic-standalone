@@ -21,7 +21,7 @@ class ExampleFixtures extends Fixture implements FixtureGroupInterface
      */
     public function load(ObjectManager $manager): void
     {
-        $data = ZipContent::read('./src/DataFixtures/example/', 'home-page-v17-2025-02-03-15-14-29.zip');
+        $data = ZipContent::read('./src/DataFixtures/example/', 'home-page-v1.zip');
 
         $this->dataImporter->import($data, ['version_origin' => ContentVersionInterface::ORIGIN_IMPORT]);
     }
