@@ -1,12 +1,17 @@
 site:
     allowed_content_types: ['page', 'article']
-    locales: ['es', 'en']
-    default_locale: 'es'
+    locales: ['en', 'es']
+    default_locale: 'en'
     https_redirect: true
     hosts:
-        - { domain: '127.0.0.1' }
-        - { domain: 'localhost' }
-    paths:
-        - { path: '/es', locale: 'es' }
-        - { path: '/en', locale: 'en' }
+        - { domain: '127.0.0.1', port: 8000, canonical: true }
+        - { domain: 'localhost', port: 8000, redirect_to_canonical: true }
 
+    paths:
+        - { path: '/en', locale: 'en' }
+        - { path: '/es', locale: 'es' }
+
+    slash_route:
+        behaviour: 'redirect_to_route_with_user_language'
+        route: 'home'
+        redirect_code: 301
