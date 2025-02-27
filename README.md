@@ -1,5 +1,5 @@
 
-# Symfonic Standalone
+# Armonic Standalone
 
-You have all information in [Symfonic Docs](https://symfonic.softspring.es/latest/install-symfonic-standalone)
+You have all information in [Armonic Docs](https://armonic.softspring.es/latest/install-armonic-standalone)
 
