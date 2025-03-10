@@ -10,7 +10,7 @@ return [
     Softspring\Component\DynamicFormType\SfsDynamicFormTypeBundle::class => ['all' => true],
     Softspring\MediaBundle\SfsMediaBundle::class => ['all' => true],
     Softspring\PermissionsBundle\SfsPermissionsBundle::class => ['all' => true],
-    Softspring\Symfonic\SymfonicBundle::class => ['all' => true],
+    Softspring\Armonic\ArmonicBundle::class => ['all' => true],
     Softspring\TimeAgoBundle\SfsTimeAgoBundle::class => ['all' => true],
     Softspring\TranslatableBundle\SfsTranslatableBundle::class => ['all' => true],
     Softspring\TwigExtraBundle\SfsTwigExtraBundle::class => ['all' => true],
@@ -25,4 +25,5 @@ return [
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle::class => ['dev' => true, 'test' => true],
+    Softspring\Armonic\ArmonicBundle::class => ['all' => true],
 ];

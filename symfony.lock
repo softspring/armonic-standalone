@@ -85,6 +85,9 @@
             "tests/bootstrap.php"
         ]
     },
+    "softspring/armonic": {
+        "version": "5.5.x-dev"
+    },
     "softspring/cms-bundle": {
         "version": "5.2",
         "recipe": {
