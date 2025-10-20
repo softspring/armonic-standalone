@@ -109,7 +109,7 @@
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^4.0",
         "friendsofphp/php-cs-fixer": "3.48.*",
-        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan": "^2.1",
         "phpunit/phpunit": "^9.5",
         "softspring/cms-blog-plugin": "^6.0@dev",
         "softspring/cms-bundle": "^6.0@dev",
