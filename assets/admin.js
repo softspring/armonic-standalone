@@ -9,5 +9,5 @@ window.bootstrap = bootstrap;
 import '@softspring/cms-bundle/scripts/admin-cms';
 import '@softspring/media-bundle/scripts/media-type';
 import '@softspring/cms-module-collection/modules';
-import '@softspring/polymorphic-form-type/scripts/polymorphic-form-type';
+import '@softspring/collection-form-type/scripts/collection-form-type';
 
