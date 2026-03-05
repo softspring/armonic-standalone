@@ -5,3 +5,7 @@ _sfs_cms_:
 _sfs_cms_sections_:
     resource: "@SfsCmsSectionsPlugin/config/routing/admin_sections.yaml"
     prefix: "/cms/sections"
+
+_sfs_cms_translate:
+    resource: "@SfsCmsTranslationPlugin/config/routing/api_translate.yaml"
+    prefix: "/translation"

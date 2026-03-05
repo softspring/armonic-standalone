@@ -9,6 +9,7 @@
         "ext-iconv": "*",
         "ext-intl": "*",
         "ext-mysqli": "*",
+        "google/cloud-translate": "^1.21",
         "softspring/armonic": "^6.0@dev",
         "softspring/cms-blog-plugin": "^6.0@dev",
         "softspring/cms-translation-plugin": "^6.0@dev",

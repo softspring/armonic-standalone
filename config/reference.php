@@ -418,12 +418,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         recompile?: bool|Param, // Default: true
  *     },
  * }
- * @psalm-type SfsCmsTranslationConfig = array{
- *     api?: bool|array{ // Deprecated: The "api" configuration key is deprecated and will be removed in 6.0. Use "sfs_translatable.api" instead.
- *         enabled?: bool|Param, // Default: false
- *         driver?: "google"|Param, // Default: "google"
- *     },
- * }
  * @psalm-type SfsMediaConfig = array{
  *     entity_manager?: scalar|Param|null, // Default: "default"
  *     driver?: "filesystem"|"google_cloud_storage"|Param, // Default: "filesystem"
@@ -1712,7 +1706,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *     sfs_cms_blog?: SfsCmsBlogConfig,
  *     sfs_cms?: SfsCmsConfig,
  *     sfs_cms_sections?: SfsCmsSectionsConfig,
- *     sfs_cms_translation?: SfsCmsTranslationConfig,
  *     sfs_media?: SfsMediaConfig,
  *     sfs_translatable?: SfsTranslatableConfig,
  *     sfs_twig_extra?: SfsTwigExtraConfig,
@@ -1732,7 +1725,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms?: SfsCmsConfig,
  *         sfs_cms_sections?: SfsCmsSectionsConfig,
- *         sfs_cms_translation?: SfsCmsTranslationConfig,
  *         sfs_media?: SfsMediaConfig,
  *         sfs_translatable?: SfsTranslatableConfig,
  *         sfs_twig_extra?: SfsTwigExtraConfig,
@@ -1756,7 +1748,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms?: SfsCmsConfig,
  *         sfs_cms_sections?: SfsCmsSectionsConfig,
- *         sfs_cms_translation?: SfsCmsTranslationConfig,
  *         sfs_media?: SfsMediaConfig,
  *         sfs_translatable?: SfsTranslatableConfig,
  *         sfs_twig_extra?: SfsTwigExtraConfig,
@@ -1777,7 +1768,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms?: SfsCmsConfig,
  *         sfs_cms_sections?: SfsCmsSectionsConfig,
- *         sfs_cms_translation?: SfsCmsTranslationConfig,
  *         sfs_media?: SfsMediaConfig,
  *         sfs_translatable?: SfsTranslatableConfig,
  *         sfs_twig_extra?: SfsTwigExtraConfig,

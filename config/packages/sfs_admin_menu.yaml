@@ -12,7 +12,7 @@ twig:
                     translation_key: 'sidebar.menu.dashboard.dashboard'
                     route: 'admin_dashboard'
                     active_expression: 'admin_dashboard'
-                    icon: 'bi bi-speedometer2'
+                    icon: 'bi bi-speedometer2 me-2'
             cms:
                 translation_key: 'sidebar.menu.cms.title'
                 pages:
@@ -20,50 +20,50 @@ twig:
                     route: 'sfs_cms_admin_content_page_list'
                     role: PERMISSION_SFS_CMS_ADMIN_CONTENT_LIST
                     active_expression: 'sfs_cms_admin_content_page_'
-                    icon: 'bi bi-code-slash'
+                    icon: 'bi bi-code-slash me-2'
                 articles:
                     translation_key: 'sidebar.menu.cms.articles'
                     route: 'sfs_cms_admin_content_article_list'
                     role: PERMISSION_SFS_CMS_ADMIN_CONTENT_LIST
                     active_expression: 'sfs_cms_admin_content_article_'
-                    icon: 'bi bi-pencil-square'
+                    icon: 'bi bi-pencil-square me-2'
                 menus:
                     translation_key: 'sidebar.menu.cms.menus'
                     route: 'sfs_cms_admin_menus_list'
                     role: PERMISSION_SFS_CMS_ADMIN_MENUS_LIST
                     active_expression: 'sfs_cms_admin_menus_'
-                    icon: 'bi bi-list-nested'
+                    icon: 'bi bi-list-nested me-2'
                 sections:
                     translation_key: 'sidebar.menu.cms.sections'
                     route: 'sfs_cms_admin_sections_list'
                     role: PERMISSION_SFS_CMS_ADMIN_SECTION_LIST
                     active_expression: 'sfs_cms_admin_sections_'
-                    icon: 'bi bi-boxes'
+                    icon: 'bi bi-grid-fill me-2'
                 blocks:
                     translation_key: 'sidebar.menu.cms.blocks'
                     route: 'sfs_cms_admin_blocks_list'
                     role: PERMISSION_SFS_CMS_ADMIN_BLOCKS_LIST
                     active_expression: 'sfs_cms_admin_blocks_'
-                    icon: 'bi bi-puzzle'
+                    icon: 'bi bi-puzzle me-2'
                 medias:
                     translation_key: 'sidebar.menu.cms.medias'
                     route: 'sfs_media_admin_medias_list'
                     # role: ROLE_SFS_MEDIA_ADMIN_MEDIAS_LIST
                     active_expression: 'sfs_media_admin_medias_'
-                    icon: 'bi bi-images'
+                    icon: 'bi bi-images me-2'
                 routes:
                     translation_key: 'sidebar.menu.cms.routes'
                     route: 'sfs_cms_admin_routes_list'
                     role: PERMISSION_SFS_CMS_ADMIN_ROUTES_LIST
                     active_expression: 'sfs_cms_admin_routes_'
-                    icon: 'bi bi-signpost-split'
+                    icon: 'bi bi-signpost-split me-2'
 
                 sites:
                     translation_key: 'sidebar.menu.cms.sites'
                     route: 'sfs_cms_admin_sites_list'
                     role: PERMISSION_SFS_CMS_ADMIN_SITES_LIST
                     active_expression: 'sfs_cms_admin_sites_'
-                    icon: 'bi bi-diagram-3'
+                    icon: 'bi bi-diagram-3 me-2'
             users:
                 translation_key: 'sidebar.menu.users.title'
                 users:
@@ -71,10 +71,10 @@ twig:
                     route: 'sfs_user_admin_users_list'
                     role: PERMISSION_SFS_USER_ADMIN_USERS_LIST
                     active_expression: 'sfs_user_admin_users_'
-                    icon: 'bi bi-people'
+                    icon: 'bi bi-people me-2'
                 administrators:
                     translation_key: 'sidebar.menu.users.administrators'
                     route: 'sfs_user_admin_administrators_list'
                     role: PERMISSION_SFS_USER_ADMIN_ADMINISTRATORS_LIST
                     active_expression: 'sfs_user_admin_administrators_'
-                    icon: 'bi bi-people-fill'
+                    icon: 'bi bi-people-fill me-2'

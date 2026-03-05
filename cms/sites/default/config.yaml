@@ -15,3 +15,18 @@ site:
         behaviour: 'redirect_to_route_with_user_language'
         route: 'home'
         redirect_code: 301
+
+    robots:
+        mode: static
+
+    sitemaps:
+        default:
+            url: sitemap.xml
+            cache_ttl: 300
+            default_priority: "1.0"
+            default_changefreq: "weekly"
+            alternates_include_hreflang: false
+
+    sitemaps_index:
+        url: sitemap-index.xml
+        cache_ttl: 300
