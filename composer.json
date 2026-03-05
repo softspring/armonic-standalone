@@ -1,10 +1,8 @@
 {
     "name": "softspring/armonic-standalone",
     "description": "Armonic Standalone",
-    "type": "project",
     "license": "AGPL-3.0-or-later",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "type": "project",
     "require": {
         "php": ">=8.4",
         "ext-ctype": "*",
@@ -14,39 +12,27 @@
         "softspring/cms-blog-plugin": "^6.0@dev",
         "softspring/cms-translation-plugin": "^6.0@dev",
         "softspring/user-bundle": "^6.0@dev",
-        "symfony/console": "8.0.*",
-        "symfony/dotenv": "8.0.*",
+        "symfony/console": "^8.0.6",
+        "symfony/dotenv": "^8.0.6",
         "symfony/flex": "^2.10",
-        "symfony/framework-bundle": "8.0.*",
-        "symfony/monolog-bundle": ">=4.0.1",
-        "symfony/rate-limiter": "8.0.*",
-        "symfony/runtime": "8.0.*",
-        "symfony/webpack-encore-bundle": ">=2.4",
-        "symfony/yaml": "8.0.*",
+        "symfony/framework-bundle": "^8.0.6",
+        "symfony/monolog-bundle": "^4.0.1",
+        "symfony/rate-limiter": "^8.0.6",
+        "symfony/runtime": "~8.0.1",
+        "symfony/webpack-encore-bundle": "^2.4",
+        "symfony/yaml": "^8.0.6",
         "twig/extra-bundle": "^3.23"
     },
-    "config": {
-        "preferred-install": {
-            "softspring/*": "source",
-            "*": "dist"
-        },
-        "allow-plugins": {
-            "php-http/discovery": true,
-            "symfony/flex": true,
-            "symfony/runtime": true
-        },
-        "bump-after-update": true,
-        "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
-        }
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.50",
+        "friendsofphp/php-cs-fixer": "^3.94.2",
+        "phpstan/phpstan": "^2.1.40",
+        "phpunit/phpunit": "^12.5.14",
+        "rector/rector": "^2.3.8",
+        "symfony/debug-bundle": "^8.0",
+        "symfony/maker-bundle": ">=1.66",
+        "symfony/stopwatch": "^8.0",
+        "symfony/web-profiler-bundle": "^8.0.6"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
@@ -60,17 +46,222 @@
         "symfony/polyfill-php83": "*",
         "symfony/polyfill-php84": "*"
     },
-    "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../armonic",
+            "options": {
+                "symlink": true
+            }
         },
+        {
+            "type": "path",
+            "url": "../cms-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../cms-module-collection",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../cms-translation-plugin",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../cms-sections-plugin",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../cms-blog-plugin",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../collection-form-type",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../components",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../mime-translatable",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../crudl-controller",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../doctrine-migrations-version-comparator",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../doctrine-paginator",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../doctrine-query-filters",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../doctrine-target-entity-resolver",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../dynamic-form-type",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../events",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../media-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../permissions-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../polymorphic-form-type",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../time-ago-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../translatable-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../twig-extra-bundle",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../user-bundle",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "php-http/discovery": true,
+            "symfony/flex": true,
+            "symfony/runtime": true
+        },
+        "bump-after-update": true,
+        "preferred-install": {
+            "softspring/*": "source",
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-6.0": "6.0.x-dev"
+        },
+        "symfony": {
+            "allow-contrib": false,
+            "endpoint": [
+                "https://api.github.com/repos/softspring/recipes/contents/index.json",
+                "flex://defaults"
+            ],
+            "require": "8.0.*"
+        }
+    },
+    "scripts": {
         "post-install-cmd": [
             "@auto-scripts"
         ],
         "post-update-cmd": [
             "@auto-scripts"
         ],
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        },
         "fix": [
             "vendor/bin/rector process src tests",
             "vendor/bin/php-cs-fixer fix",
@@ -83,6 +274,7 @@
             "vendor/bin/phpstan analyse src tests --level 5",
             "vendor/bin/php-cs-fixer fix --dry-run --diff",
             "vendor/bin/yaml-lint .github/ -vvv --parse-tags",
+            "vendor/bin/yaml-lint cms/ -vvv --parse-tags",
             "vendor/bin/yaml-lint config/ -vvv --parse-tags",
             "vendor/bin/yaml-lint translations/ -vvv --parse-tags"
         ],
@@ -94,190 +286,5 @@
             "composer update --no-scripts --ansi --prefer-lowest --prefer-stable",
             "@run-tests"
         ]
-    },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": false,
-            "require": "8.0.*",
-            "endpoint": [
-                "https://api.github.com/repos/softspring/recipes/contents/index.json",
-                "flex://defaults"
-            ]
-        },
-        "branch-alias": {
-            "dev-6.0": "6.0.x-dev"
-        }
-    },
-    "repositories": [
-        {
-            "url": "../armonic",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../cms-bundle",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../cms-module-collection",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../cms-translation-plugin",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../cms-sections-plugin",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../cms-blog-plugin",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../collection-form-type",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../components",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../mime-translatable",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../crudl-controller",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../doctrine-migrations-version-comparator",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../doctrine-paginator",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../doctrine-query-filters",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../doctrine-target-entity-resolver",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../dynamic-form-type",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../events",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../media-bundle",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../permissions-bundle",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../polymorphic-form-type",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../time-ago-bundle",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../translatable-bundle",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../twig-extra-bundle",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "url": "../user-bundle",
-            "type": "path",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
-    "require-dev": {
-        "symfony/debug-bundle": "8.0.*",
-        "symfony/maker-bundle": ">=1.66",
-        "symfony/stopwatch": "8.0.*",
-        "symfony/web-profiler-bundle": "8.0.*"
     }
 }
