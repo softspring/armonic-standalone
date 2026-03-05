@@ -6,6 +6,7 @@ return [
     Softspring\Component\Components\SfsComponentsBundle::class => ['all' => true],
     Softspring\CmsBlogPlugin\SfsCmsBlogPlugin::class => ['all' => true],
     Softspring\CmsBundle\SfsCmsBundle::class => ['all' => true],
+    Softspring\CmsSectionsPlugin\SfsCmsSectionsPlugin::class => ['all' => true],
     Softspring\CmsTranslationPlugin\SfsCmsTranslationPlugin::class => ['all' => true],
     Softspring\Component\DynamicFormType\SfsDynamicFormTypeBundle::class => ['all' => true],
     Softspring\MediaBundle\SfsMediaBundle::class => ['all' => true],
@@ -25,5 +26,4 @@ return [
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle::class => ['dev' => true, 'test' => true],
-    Softspring\Armonic\ArmonicBundle::class => ['all' => true],
 ];

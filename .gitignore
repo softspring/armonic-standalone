@@ -10,29 +10,13 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
-###> phpunit/phpunit ###
-/phpunit.xml
-.phpunit.result.cache
-###< phpunit/phpunit ###
+compose.override.yaml
+public/media/
+!public/media/.gitignore
 
-###> symfony/phpunit-bridge ###
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
 /public/build/
-/public/media/
 npm-debug.log
 yarn-error.log
-yarn.lock
 ###< symfony/webpack-encore-bundle ###
-
-###> phpstan/phpstan ###
-phpstan.neon
-###< phpstan/phpstan ###
-
-###> friendsofphp/php-cs-fixer ###
-/.php-cs-fixer.php
-/.php-cs-fixer.cache
-###< friendsofphp/php-cs-fixer ###

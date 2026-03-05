@@ -1,3 +1,7 @@
-_sfs_cms_blog_:
-    resource: "@SfsCmsBlogPlugin/config/routing/blocks.yaml"
-    prefix: "/_blog_blocks"
+_sfs_cms_frontend_:
+    resource: "@SfsCmsBundle/config/routing/frontend.yaml"
+    prefix: /{_locale}
+
+_sfs_cms_sections_frontend_:
+    resource: "@SfsCmsSectionsPlugin/config/routing/frontend_sections.yaml"
+    prefix: /{_locale}

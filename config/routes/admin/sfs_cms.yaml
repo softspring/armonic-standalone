@@ -1,3 +1,7 @@
 _sfs_cms_:
     resource: "@SfsCmsBundle/config/routing/admin.yaml"
     prefix: "/cms"
+
+_sfs_cms_sections_:
+    resource: "@SfsCmsSectionsPlugin/config/routing/admin_sections.yaml"
+    prefix: "/cms/sections"

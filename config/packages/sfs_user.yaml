@@ -1,3 +1,6 @@
+imports:
+    - { resource: '@SfsUserBundle/config/security/admin_role_hierarchy.yaml' }
+
 sfs_user:
     invite: false
     impersonate_bar:

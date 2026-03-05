@@ -6,6 +6,5 @@ sfs_cms:
         identification: "domain"
         throw_not_found: false
 
-sfs_cms_blog:
-    author:
-        class: App\Entity\User
+    cache:
+        type: ttl

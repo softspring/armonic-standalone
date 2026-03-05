@@ -9,6 +9,7 @@ sidebar:
             articles: "Articles"
             menus: "Menus"
             blocks: "Blocks"
+            sections: "Sections"
             medias: "Medias"
             routes: "Routes"
             sites: "Sites"

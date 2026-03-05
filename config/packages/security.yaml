@@ -3,6 +3,7 @@ imports:
     - { resource: '@SfsCmsTranslationPlugin/config/security/admin_role_hierarchy.yaml' }
     - { resource: '@SfsMediaBundle/config/security/admin_role_hierarchy.yaml' }
     - { resource: '@SfsUserBundle/config/security/admin_role_hierarchy.yaml' }
+    - { resource: '@SfsCmsSectionsPlugin/config/security/admin_role_hierarchy.yaml' }
 
 security:
     # https://symfony.com/doc/current/security.html#registering-the-user-hashing-passwords
@@ -19,10 +20,10 @@ security:
 
     role_hierarchy:
         ROLE_ADMIN:
-            - ROLE_ADMIN_USERS_RW
-            - ROLE_ADMIN_INVITATION_RO
+            - ROLE_SFS_USER_ADMIN_USERS_RW
+            - ROLE_SFS_USER_ADMIN_INVITATION_RO
             - ROLE_ALLOWED_TO_SWITCH
-            - ROLE_ADMIN_ADMINISTRATORS_RW
+            - ROLE_SFS_USER_ADMIN_ADMINISTRATORS_RW
             - ROLE_SFS_MEDIA_ADMIN_MEDIAS_RW
             - ROLE_SFS_CMS_ADMIN_BLOCKS_RW
             - ROLE_SFS_CMS_ADMIN_CONTENTS_RW
@@ -30,10 +31,12 @@ security:
             - ROLE_SFS_CMS_ADMIN_MENUS_RW
             - ROLE_SFS_CMS_ADMIN_SITES_RO
             - ROLE_SFS_CMS_ADMIN_CONTENTS_TRANSLATOR
+            - ROLE_SFS_CMS_ADMIN_SECTIONS_RW
+            - ROLE_SFS_CMS_ADMIN_SECTIONS_TRANSLATOR
         ROLE_SUPER_ADMIN:
             - ROLE_ADMIN
             - ROLE_ADMIN_ADMINISTRATORS_PROMOTE_SUPER
-            - ROLE_ADMIN_ADMINISTRATORS_DEMOTE_SUPER
+            - PERMISSION_SFS_USER_ADMIN_ADMINISTRATORS_DEMOTE
 
     firewalls:
         dev:

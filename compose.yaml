@@ -1,20 +1,20 @@
 services:
-###> doctrine/doctrine-bundle ###
-  database:
-    image: mysql:${MYSQL_VERSION:-8.3.0}
-    environment:
-      MYSQL_DATABASE: ${MYSQL_DB:-app}
-      # You should definitely change the password in production
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-!ChangeMe!}
-      MYSQL_USER: ${MYSQL_USER:-app}
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root}
-    volumes:
-      - database_data:/var/lib/mysqlql/data:rw
-      # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
-      # - ./docker/db/data:/var/lib/mysqlql/data:rw
+    ###> doctrine/doctrine-bundle ###
+    database:
+        image: mysql:${MYSQL_VERSION:-8.4}
+        environment:
+            MYSQL_DATABASE: ${MYSQL_DB:-app}
+            # You should definitely change the password in production
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD:-!ChangeMe!}
+            MYSQL_USER: ${MYSQL_USER:-app}
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root}
+        volumes:
+            - database_data:/var/lib/mysqlql/data:rw
+            # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
+            # - ./docker/db/data:/var/lib/mysqlql/data:rw
 ###< doctrine/doctrine-bundle ###
 
 volumes:
-###> doctrine/doctrine-bundle ###
-  database_data:
+    ###> doctrine/doctrine-bundle ###
+    database_data:
 ###< doctrine/doctrine-bundle ###

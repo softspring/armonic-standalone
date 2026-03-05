@@ -1,0 +1,3 @@
+sfs_cms_blog:
+    author:
+        class: App\Entity\User
