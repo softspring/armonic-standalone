@@ -1,2 +1,11 @@
 user_dropdown:
     name: "Desplegable de usuario"
+    change_password.link: "Cambiar contraseña"
+    settings.link: "Configuración"
+    admin_panel.link: "Panel de administración"
+    sing_out.link: "Cerrar sesión"
+    sign_in.link: "Iniciar sesión"
+    sign_up.link: "Registrarse"
+
+admin_user_dropdown:
+    name: "Menu desplegable de usuario"

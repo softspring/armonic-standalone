@@ -1,2 +1,11 @@
 user_dropdown:
     name: "User dropdown"
+    change_password.link: "Change password"
+    settings.link: "Settings"
+    admin_panel.link: "Admin panel"
+    sing_out.link: "Sign out"
+    sign_in.link: "Sign in"
+    sign_up.link: "Register"
+
+admin_user_dropdown:
+    name: "User dropdown menu"
