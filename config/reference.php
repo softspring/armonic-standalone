@@ -333,14 +333,6 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *     enable_profiler?: bool|Param, // Whether or not to enable the profiler collector to calculate and visualize migration status. This adds some queries overhead. // Default: false
  *     transactional?: bool|Param, // Whether or not to wrap migrations in a single transaction. // Default: true
  * }
- * @psalm-type SfsCmsBlogConfig = array{
- *     article?: array{
- *         class?: scalar|Param|null, // Default: "Softspring\\CmsBlogPlugin\\Entity\\ArticleContent"
- *     },
- *     author?: array{
- *         class?: scalar|Param|null,
- *     },
- * }
  * @psalm-type SfsCmsConfig = array{
  *     entity_manager?: scalar|Param|null, // Default: "default"
  *     admin?: bool|Param, // Default: true
@@ -404,6 +396,14 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *     },
  *     compiled?: array{
  *         expiration_ttl?: int|Param, // Default: 2592000
+ *     },
+ * }
+ * @psalm-type SfsCmsBlogConfig = array{
+ *     article?: array{
+ *         class?: scalar|Param|null, // Default: "Softspring\\CmsBlogPlugin\\Entity\\ArticleContent"
+ *     },
+ *     author?: array{
+ *         class?: scalar|Param|null,
  *     },
  * }
  * @psalm-type SfsCmsSectionsConfig = array{
@@ -1703,8 +1703,8 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *     services?: ServicesConfig,
  *     doctrine?: DoctrineConfig,
  *     doctrine_migrations?: DoctrineMigrationsConfig,
- *     sfs_cms_blog?: SfsCmsBlogConfig,
  *     sfs_cms?: SfsCmsConfig,
+ *     sfs_cms_blog?: SfsCmsBlogConfig,
  *     sfs_cms_sections?: SfsCmsSectionsConfig,
  *     sfs_media?: SfsMediaConfig,
  *     sfs_translatable?: SfsTranslatableConfig,
@@ -1722,8 +1722,8 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         services?: ServicesConfig,
  *         doctrine?: DoctrineConfig,
  *         doctrine_migrations?: DoctrineMigrationsConfig,
- *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms?: SfsCmsConfig,
+ *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms_sections?: SfsCmsSectionsConfig,
  *         sfs_media?: SfsMediaConfig,
  *         sfs_translatable?: SfsTranslatableConfig,
@@ -1745,8 +1745,8 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         services?: ServicesConfig,
  *         doctrine?: DoctrineConfig,
  *         doctrine_migrations?: DoctrineMigrationsConfig,
- *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms?: SfsCmsConfig,
+ *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms_sections?: SfsCmsSectionsConfig,
  *         sfs_media?: SfsMediaConfig,
  *         sfs_translatable?: SfsTranslatableConfig,
@@ -1765,8 +1765,8 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         services?: ServicesConfig,
  *         doctrine?: DoctrineConfig,
  *         doctrine_migrations?: DoctrineMigrationsConfig,
- *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms?: SfsCmsConfig,
+ *         sfs_cms_blog?: SfsCmsBlogConfig,
  *         sfs_cms_sections?: SfsCmsSectionsConfig,
  *         sfs_media?: SfsMediaConfig,
  *         sfs_translatable?: SfsTranslatableConfig,
