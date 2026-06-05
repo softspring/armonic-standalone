@@ -138,6 +138,15 @@
             "config/packages/sfs_doctrine_migrations.yaml"
         ]
     },
+    "softspring/dynamic-form-type": {
+        "version": "6.0",
+        "recipe": {
+            "repo": "github.com/softspring/recipes",
+            "branch": "6.0",
+            "version": "6.0",
+            "ref": "58e884382032ff468988b79e5a85707cdab06885"
+        }
+    },
     "softspring/media-bundle": {
         "version": "6.0",
         "recipe": {
@@ -157,6 +166,24 @@
             "branch": "master",
             "version": "5.2",
             "ref": "33f9a5ee1e98d788802e9aa3438222759fa09ce9"
+        }
+    },
+    "softspring/time-ago-bundle": {
+        "version": "6.0",
+        "recipe": {
+            "repo": "github.com/softspring/recipes",
+            "branch": "6.0",
+            "version": "6.0",
+            "ref": "58e884382032ff468988b79e5a85707cdab06885"
+        }
+    },
+    "softspring/translatable-bundle": {
+        "version": "6.0",
+        "recipe": {
+            "repo": "github.com/softspring/recipes",
+            "branch": "6.0",
+            "version": "6.0",
+            "ref": "58e884382032ff468988b79e5a85707cdab06885"
         }
     },
     "softspring/twig-extra-bundle": {

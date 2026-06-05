@@ -5,8 +5,8 @@ namespace App\DataFixtures;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Bundle\FixturesBundle\FixtureGroupInterface;
 use Doctrine\Persistence\ObjectManager;
-use Softspring\CmsBundle\Data\DataImporter;
-use Softspring\CmsBundle\Data\Exception\DataTransformerNotFoundException;
+use Softspring\CmsDataPlugin\Data\DataImporter;
+use Softspring\CmsDataPlugin\Data\Exception\DataTransformerNotFoundException;
 use Softspring\CmsBundle\Model\ContentVersionInterface;
 use Softspring\CmsBundle\Utils\ZipContent;
 

@@ -21,6 +21,13 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/softspring/armonic-standalone/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/softspring/armonic-standalone/ci.yml?branch=6.0&style=flat-square&label=CI" alt="CI"/>
+  </a>
+  <img src="https://raw.githubusercontent.com/softspring/armonic-standalone/6.0/.github/badges/coverage.svg" alt="Coverage"/>
+</p>
+
 ## Contributing
 
 We will be happy to receive your contributions to this documentation. Feel free to fork the repository, make your
