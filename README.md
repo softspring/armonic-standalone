@@ -25,7 +25,7 @@
   <a href="https://github.com/softspring/armonic-standalone/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/softspring/armonic-standalone/ci.yml?branch=6.0&style=flat-square&label=CI" alt="CI"/>
   </a>
-  <img src="https://raw.githubusercontent.com/softspring/armonic-standalone/6.0/.github/badges/coverage.svg" alt="Coverage"/>
+  <a href="https://codecov.io/gh/softspring/armonic-standalone"><img src="https://img.shields.io/codecov/c/github/softspring/armonic-standalone?branch=6.0&style=flat-square" alt="Coverage"/></a>
 </p>
 
 ## Contributing

@@ -54,14 +54,13 @@ jobs:
                 run: ./vendor/bin/php-cs-fixer fix -v --diff --dry-run
 
             -   name: Run tests
-                run: ./vendor/bin/phpunit --coverage-text --coverage-html=.phpunit.cache/html-report
+                run: ./vendor/bin/phpunit --coverage-text --coverage-html=.phpunit.cache/html-report --coverage-clover=clover.xml
 
             -   name: Run phpstan
                 run: ./vendor/bin/phpstan analyse
 
-            -   name: phpunit-coverage-badge
-                uses: timkrase/phpunit-coverage-badge@v1.2.1
+            -   name: Upload coverage to Codecov
+                uses: codecov/codecov-action@v6
                 with:
-                    push_badge: true
-                    coverage_badge_path: .github/badges/coverage.svg
-                    repo_token: ${{ secrets.GITHUB_TOKEN }}
+                    token: ${{ secrets.CODECOV_TOKEN }}
+                    files: clover.xml
