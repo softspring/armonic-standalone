@@ -5,10 +5,10 @@ namespace App\DataFixtures;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Bundle\FixturesBundle\FixtureGroupInterface;
 use Doctrine\Persistence\ObjectManager;
-use Softspring\CmsDataPlugin\Data\DataImporter;
-use Softspring\CmsDataPlugin\Data\Exception\DataTransformerNotFoundException;
 use Softspring\CmsBundle\Model\ContentVersionInterface;
 use Softspring\CmsBundle\Utils\ZipContent;
+use Softspring\CmsDataPlugin\Data\DataImporter;
+use Softspring\CmsDataPlugin\Data\Exception\DataTransformerNotFoundException;
 
 class ExampleFixtures extends Fixture implements FixtureGroupInterface
 {
