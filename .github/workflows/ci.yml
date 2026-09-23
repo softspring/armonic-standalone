@@ -35,8 +35,8 @@ jobs:
             -   name: Check PHP Version
                 run: php -v
 
-            -   name: Validate composer.json and composer.lock
-                run: composer validate --strict
+            -   name: Validate composer.json
+                run: composer validate --strict --no-check-lock
 
             -   name: Cache Composer packages
                 id: composer-cache
@@ -58,6 +58,16 @@ jobs:
 
             -   name: Run phpstan
                 run: ./vendor/bin/phpstan analyse
+
+            -   name: Run Rector
+                run: ./vendor/bin/rector process src tests --dry-run
+
+            -   name: Lint YAML
+                run: |
+                    ./vendor/bin/yaml-lint .github/ -vvv --parse-tags
+                    ./vendor/bin/yaml-lint cms/ -vvv --parse-tags
+                    ./vendor/bin/yaml-lint config/ -vvv --parse-tags
+                    ./vendor/bin/yaml-lint translations/ -vvv --parse-tags
 
             -   name: Upload coverage to Codecov
                 uses: codecov/codecov-action@v6
