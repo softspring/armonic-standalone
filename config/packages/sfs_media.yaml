@@ -11,6 +11,7 @@ sfs_media:
     types:
         background:
             name: 'Background image (jpeg)'
+            imagine_driver: gd
             upload_requirements: { minWidth: 1280, minHeight: 450, allowLandscape: true, allowPortrait: false, mimeTypes: [ 'image/png', 'image/jpeg' ] }
             versions:
                 _thumbnail: { type: 'jpeg', scale_width: 300, jpeg_quality: 90, resolution-x: 72, resolution-y: 72 } # admin thumbnail

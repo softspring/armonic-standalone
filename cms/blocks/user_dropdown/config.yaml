@@ -3,4 +3,3 @@ block:
     static: true
     esi: true
     singleton: true
-    render_url: user_dropdown

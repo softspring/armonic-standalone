@@ -48,6 +48,7 @@ security:
             lazy: true
             provider: sfs_user
             form_login:
+                default_target_path: admin_dashboard
                 provider: sfs_user
                 login_path: sfs_user_login
                 check_path: sfs_user_login_check

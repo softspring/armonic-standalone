@@ -11,3 +11,5 @@ import '@softspring/media-bundle/scripts/media-type';
 import '@softspring/cms-module-collection/modules';
 import '@softspring/collection-form-type/scripts/collection-form-type';
 import '@softspring/translatable-bundle/scripts/auto-translate';
+
+import '@softspring/components/layout/admin-shell.js';
