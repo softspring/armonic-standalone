@@ -15,15 +15,15 @@
         "softspring/cms-data-plugin": "^6.0@dev",
         "softspring/cms-translation-plugin": "^6.0@dev",
         "softspring/user-bundle": "^6.0@dev",
-        "symfony/console": "^8.0.13",
-        "symfony/dotenv": "^8.0.11",
+        "symfony/console": "~8.1.0",
+        "symfony/dotenv": "~8.1.0",
         "symfony/flex": "^2.11",
-        "symfony/framework-bundle": "^8.0.13",
+        "symfony/framework-bundle": "~8.1.0",
         "symfony/monolog-bundle": "^4.0.2",
-        "symfony/rate-limiter": "^8.0.13",
-        "symfony/runtime": "~8.0.13",
+        "symfony/rate-limiter": "~8.1.0",
+        "symfony/runtime": "~8.1.0",
         "symfony/webpack-encore-bundle": "^2.4",
-        "symfony/yaml": "^8.0.13",
+        "symfony/yaml": "~8.1.0",
         "twig/extra-bundle": "^3.24"
     },
     "require-dev": {
@@ -33,11 +33,11 @@
         "phpstan/phpstan": "^2.2.2",
         "phpunit/phpunit": "^12.5.30",
         "rector/rector": "^2.6.7",
-        "symfony/polyfill-php85": "^1.33",
-        "symfony/debug-bundle": "^8.0.8",
+        "symfony/debug-bundle": "~8.1.0",
         "symfony/maker-bundle": ">=1.67",
-        "symfony/stopwatch": "^8.0.8",
-        "symfony/web-profiler-bundle": "^8.0.13"
+        "symfony/polyfill-php85": "^1.33",
+        "symfony/stopwatch": "~8.1.0",
+        "symfony/web-profiler-bundle": "~8.1.0"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
@@ -73,7 +73,7 @@
             "symfony/flex": true,
             "symfony/runtime": true
         },
-        "bump-after-update": true,
+        "bump-after-update": false,
         "preferred-install": {
             "softspring/*": "source",
             "*": "dist"
@@ -90,7 +90,7 @@
                 "https://api.github.com/repos/softspring/recipes/contents/index.json",
                 "flex://defaults"
             ],
-            "require": "8.0.*"
+            "require": "8.1.*"
         }
     },
     "scripts": {

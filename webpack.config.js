@@ -8,6 +8,14 @@ if (!Encore.isRuntimeEnvironmentConfigured()) {
 }
 
 Encore
+    .addAliases({
+        '@softspring/cms-bundle': path.resolve(__dirname, 'vendor/softspring/cms-bundle/assets'),
+        '@softspring/media-bundle': path.resolve(__dirname, 'vendor/softspring/media-bundle/assets'),
+        '@softspring/cms-module-collection': path.resolve(__dirname, 'vendor/softspring/cms-module-collection/assets'),
+        '@softspring/collection-form-type': path.resolve(__dirname, 'vendor/softspring/collection-form-type/assets'),
+        '@softspring/translatable-bundle': path.resolve(__dirname, 'vendor/softspring/translatable-bundle/assets'),
+        '@softspring/components': path.resolve(__dirname, 'vendor/softspring/components/assets'),
+    })
     // directory where compiled assets will be stored
     .setOutputPath('public/build/')
     // public path used by the web server to access the output path
@@ -53,6 +61,7 @@ Encore
     // })
 
     // enables and configure @babel/preset-env polyfills
+    .configureBabel((config) => { config.sourceType = 'module'; })
     .configureBabelPresetEnv((config) => {
         config.useBuiltIns = 'usage';
         config.corejs = '3.38';

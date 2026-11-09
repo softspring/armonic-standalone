@@ -1,6 +1,8 @@
 @import "theme";
 @import "~bootstrap";
 @import "~bootstrap-icons";
+@import "~@softspring/components/styles/admin.bootstrap5";
+@import "~@softspring/components/sidebar/sidebar-pills.bootstrap5";
 
 @import "~@softspring/cms-bundle/styles/admin-cms";
 @import "~@softspring/cms-module-collection/modules";
