@@ -40,3 +40,8 @@ Webpack is pinned to `5.105.4` because Encore 4's copy loader uses an internal A
 
 We will be happy to receive your contributions to this documentation. Feel free to fork the repository, make your
 changes and send a pull request.
+
+## Dependency validation
+
+The 6.0 standalone application targets maintained Symfony 8.1 on PHP 8.4.
+Automatic Composer constraint bumping is disabled so normal and lowest validation use the same reviewed requirements.

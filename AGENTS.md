@@ -6,3 +6,6 @@
 - Also check the affected screens in a browser for JavaScript errors. A successful Webpack build does not prove that the editor works.
 - Use an isolated application copy and a new database for documentation captures and installation checks. Do not reset an existing developer database to prepare screenshots.
 - Capture real interfaces and use fictitious content and accounts. Record any setup changes needed for the captures separately from commands that passed unchanged.
+
+- Keep the Symfony application on a maintained line and do not bypass security-blocked dependencies to make CI pass.
+- Run `composer test` and `composer test-bc` sequentially, keeping automatic constraint bumping disabled so both use the reviewed requirements.
