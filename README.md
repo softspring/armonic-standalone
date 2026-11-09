@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://armonic.softspring.es/6.0/">
+  <a href="https://armonic.softspring.es/6.1@dev/">
     Read documentation online
   </a>
     ·
@@ -23,14 +23,14 @@
 
 <p align="center">
   <a href="https://github.com/softspring/armonic-standalone/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/softspring/armonic-standalone/ci.yml?branch=6.0&style=flat-square&label=CI" alt="CI"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/softspring/armonic-standalone/ci.yml?branch=6.1&style=flat-square&label=CI" alt="CI"/>
   </a>
-  <a href="https://app.codecov.io/gh/softspring/armonic-standalone/tree/6.0"><img src="https://img.shields.io/codecov/c/github/softspring/armonic-standalone?branch=6.0&style=flat-square" alt="Coverage"/></a>
+  <a href="https://app.codecov.io/gh/softspring/armonic-standalone/tree/6.1"><img src="https://img.shields.io/codecov/c/github/softspring/armonic-standalone?branch=6.1&style=flat-square" alt="Coverage"/></a>
 </p>
 
 ## Local frontend development
 
-After installing the PHP dependencies, run `npm install` and `npm run dev` from the project root. See the [standalone installation guide](https://armonic.softspring.es/6.0/use-armonic-standalone-edition) for the application setup.
+After installing the PHP dependencies, run `npm install` and `npm run dev` from the project root. See the [standalone installation guide](https://armonic.softspring.es/6.1@dev/use-armonic-standalone-edition) for the application setup.
 
 The Webpack aliases point to the source `assets/` directories of the installed Softspring packages. The admin entry loads the shared admin shell scripts and styles. Keep the layout based on that shell instead of adding a fixed header, which can cover its page actions.
 

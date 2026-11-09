@@ -10,11 +10,11 @@
         "ext-intl": "*",
         "ext-mysqli": "*",
         "google/cloud-translate": "^1.21",
-        "softspring/armonic": "^6.0@dev",
-        "softspring/cms-blog-plugin": "^6.0@dev",
-        "softspring/cms-data-plugin": "^6.0@dev",
-        "softspring/cms-translation-plugin": "^6.0@dev",
-        "softspring/user-bundle": "^6.0@dev",
+        "softspring/armonic": "6.1.*@dev",
+        "softspring/cms-blog-plugin": "6.1.*@dev",
+        "softspring/cms-data-plugin": "6.1.*@dev",
+        "softspring/cms-translation-plugin": "6.1.*@dev",
+        "softspring/user-bundle": "6.1.*@dev",
         "symfony/console": "~8.1.0",
         "symfony/dotenv": "~8.1.0",
         "symfony/flex": "^2.11",
@@ -82,7 +82,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-6.0": "6.0.x-dev"
+            "dev-6.0": "6.0.x-dev",
+            "dev-6.1": "6.1.x-dev"
         },
         "symfony": {
             "allow-contrib": false,
